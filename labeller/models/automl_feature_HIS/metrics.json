@@ -1,0 +1,27 @@
+{
+  "residue": "HIS",
+  "kind": "features",
+  "n": 1220,
+  "n_positive": 416,
+  "base_rate": 0.34098360655737703,
+  "n_features": 138,
+  "oof_ap": 0.6998886495955506,
+  "oof_ap_lift": 2.0525580589100283,
+  "oof_auc": 0.8148425540566401,
+  "oof_mcc": 0.48961909685425736,
+  "oof_threshold": 0.3353591019581456,
+  "oof_labels": 480,
+  "oof_right": 302,
+  "oof_precision": 0.6291666666666667,
+  "oof_recall": 0.7259615384615384,
+  "fold_estimators": [
+    "extra_tree",
+    "extra_tree",
+    "extra_tree",
+    "xgb_limitdepth",
+    "xgb_limitdepth"
+  ],
+  "full_estimator": "extra_tree",
+  "flaml_budget_s": 1200,
+  "minutes": 120.0
+}

@@ -1,0 +1,76 @@
+{
+  "artifact_path": "/novo/users/cpjb/PHD/conditional_binding/ph/data/PKAD/models/his_top_sparse_model_delta_pka.pkl",
+  "target": "delta_pka",
+  "aggregation_mode": "best_config_split_average",
+  "split_count": 8,
+  "model_name": "elastic_net",
+  "groups": "depth",
+  "feature_names": [
+    "depth_mean",
+    "depth_sidechain"
+  ],
+  "alpha": 0.001,
+  "l1_ratio": 0.5,
+  "coef_raw_mean": [
+    0.2589015494191859,
+    -0.3858195145798502
+  ],
+  "coef_raw_std": [
+    0.13762524921674288,
+    0.13930167690167305
+  ],
+  "intercept_raw_mean": -0.4262711082557959,
+  "intercept_raw_std": 0.10627816954150553,
+  "cv_rmse": 1.286538593675604,
+  "cv_rmse_std": 0.25862393100186626,
+  "cv_mae": 0.9143722828963412,
+  "cv_mae_std": 0.1139421279788874,
+  "cv_pcc": 0.2401943155400592,
+  "cv_pcc_std": 0.12125477021947807,
+  "cv_scc": 0.3223826782857397,
+  "cv_scc_std": 0.06387189270028353,
+  "cv_slope": 0.22238402151501369,
+  "cv_intercept": 5.061417624927254,
+  "cv_calib_penalty": 5.83903360341224,
+  "cv_pearson": 0.2401943155400592,
+  "cv_pearson_std": 0.12125477021947807,
+  "pct_improvement": 11.30301585131962,
+  "selection_score": 1.2781495318735114,
+  "nonbaseline_nonzero_coef": 2,
+  "max_abs_delta": 1.5,
+  "scoring_weights": {
+    "rmse": 0.5,
+    "mae": 0.2,
+    "pcc": 0.1,
+    "scc": 0.1,
+    "calib": 0.1
+  },
+  "stability_thresholds": {
+    "nonzero_freq": 0.8,
+    "sign_consistency": 0.8
+  },
+  "n_rows_fit": 168,
+  "n_pdb_fit": 44,
+  "feature_stats": {
+    "depth_mean": {
+      "mean": 1.2528086983652686,
+      "std": 1.3546277356342662,
+      "min": 0.0,
+      "max": 6.976195437431336,
+      "p01": 0.0,
+      "p99": 5.920556470632566
+    },
+    "depth_sidechain": {
+      "mean": 1.191355364272992,
+      "std": 1.556113269578992,
+      "min": 0.0,
+      "max": 7.694192345937094,
+      "p01": 0.0,
+      "p99": 6.609532162777585
+    }
+  },
+  "top_terms": [
+    "depth_sidechain(-0.386)",
+    "depth_mean(+0.259)"
+  ]
+}

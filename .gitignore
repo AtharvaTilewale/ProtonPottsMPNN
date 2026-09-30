@@ -1,0 +1,27 @@
+# Environment (rebuild with ./install.sh)
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs / OS / editor
+*.log
+.DS_Store
+.vscode/
+.idea/
+*.nfs*
+
+# Model checkpoint is intentionally tracked:
+!checkpoints/**/*.ckpt
+
+# Sensitive/unpublished benchmark data - do not commit
+benchmarks/data/egfr_pdl1_folded.parquet
+benchmarks/data/egfr_pdl1_rescored.parquet
+benchmarks/data/egfr_pdl1_scrmsd.parquet

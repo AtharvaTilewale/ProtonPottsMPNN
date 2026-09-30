@@ -1,0 +1,27 @@
+{
+  "residue": "ACID",
+  "kind": "features",
+  "n": 6214,
+  "n_positive": 94,
+  "base_rate": 0.015127132281943997,
+  "n_features": 141,
+  "oof_ap": 0.3314470447700441,
+  "oof_ap_lift": 21.91076527873462,
+  "oof_auc": 0.8120828118481435,
+  "oof_mcc": 0.4299817440954093,
+  "oof_threshold": 0.43439366167999954,
+  "oof_labels": 38,
+  "oof_right": 26,
+  "oof_precision": 0.6842105263157895,
+  "oof_recall": 0.2765957446808511,
+  "fold_estimators": [
+    "xgboost",
+    "rf",
+    "lgbm",
+    "xgboost",
+    "xgboost"
+  ],
+  "full_estimator": "xgboost",
+  "flaml_budget_s": 1200,
+  "minutes": 120.1
+}

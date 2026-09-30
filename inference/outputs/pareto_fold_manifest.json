@@ -1,0 +1,71 @@
+[
+  {
+    "design_id": "ASP-P+GLU-P+HIS-P_block_descent_b3_l1_rw1_res33-93-100_s0",
+    "combined_lambda": 1.0,
+    "binder_chain": "A",
+    "target_chains": [
+      "B"
+    ],
+    "centers": [
+      [
+        33,
+        "ASP-P"
+      ],
+      [
+        93,
+        "GLU-P"
+      ],
+      [
+        100,
+        "HIS-P"
+      ]
+    ],
+    "canonical_sequence": "AAEQAVITQSTITSTSAPPAQIDFIDLGSAVPDQAIAKNACASLAATETITGDSLAEVTAFLVAKGYQVSSSSASSTTLANAGLTFAENFTYEPADFFFHFYAITVAATGSTAA"
+  },
+  {
+    "design_id": "ASP-P+GLU-P+HIS-P_block_descent_b3_l0.909_rw1_res33-93-100_s0",
+    "combined_lambda": 0.909,
+    "binder_chain": "A",
+    "target_chains": [
+      "B"
+    ],
+    "centers": [
+      [
+        33,
+        "ASP-P"
+      ],
+      [
+        93,
+        "GLU-P"
+      ],
+      [
+        100,
+        "HIS-P"
+      ]
+    ],
+    "canonical_sequence": "AAEQAVITQSTITSTSAPPAQIDFIDLGSAVYDTAIAKNACASLAACEAITGDSLAEVTAFLVAKGYQVSSSSASSTTLANAGLTFAENCAVEPLDCLFHFFAITVAATGSTAA"
+  },
+  {
+    "design_id": "ASP-P+GLU-P+HIS-P_block_descent_b3_l0.818_rw1_res33-93-100_s0",
+    "combined_lambda": 0.818,
+    "binder_chain": "A",
+    "target_chains": [
+      "B"
+    ],
+    "centers": [
+      [
+        33,
+        "ASP-P"
+      ],
+      [
+        93,
+        "GLU-P"
+      ],
+      [
+        100,
+        "HIS-P"
+      ]
+    ],
+    "canonical_sequence": "AAEQAVITQSTITSTSAPPAQIDFIDLGSAVVDTAIAKNACASLAATEMITGDSLAEVTAFLVAKGYQVSSSSASSTTLANAGLTFAENIAIEQADCAFHVYAITVAATGSTAA"
+  }
+]

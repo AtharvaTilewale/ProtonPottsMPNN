@@ -1,0 +1,19 @@
+{
+  "fold": "pdl1_design_fold.cif",
+  "binder_chain": "B",
+  "binder_len": 116,
+  "target_len": 115,
+  "fcx_iptm": 0.924,
+  "fcx_binder_plddt": 0.83,
+  "centers": [
+    [
+      54,
+      "GLU-P"
+    ],
+    [
+      99,
+      "HIS-P"
+    ]
+  ],
+  "note": "A real RF3 (from_complex r6) fold of a PD-L1 design; folding a fresh design needs RF3 externally (see DATA.md)."
+}

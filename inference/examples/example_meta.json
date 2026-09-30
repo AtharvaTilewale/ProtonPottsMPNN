@@ -1,0 +1,8 @@
+{
+  "pdb": "pdl1_seed_binder.pdb",
+  "pdb_id": "3BIK_design_00",
+  "binder_chain": "A",
+  "binder_len": 114,
+  "target_len": 115,
+  "note": "PD-L1 (3BIK) seed binder from the pH experiment"
+}

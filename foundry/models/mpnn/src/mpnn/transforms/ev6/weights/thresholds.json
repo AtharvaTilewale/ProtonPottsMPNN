@@ -1,0 +1,5 @@
+{
+  "_comment": "Operating points for EV6. sd_cut: the -A (ambiguous) band is assigned when the SD across the 5 fold models exceeds this (from sandbox/ev5/3_automl/figs/uncertainty.png). prob_thr: within the confident set, -P if the ensemble-mean p >= this else -S/-D. prob_thr defaults are prevalence-matched (label the true ~34% HIS-P / ~2% acid-P rate); WARNING: set at the enriched neutron base rate, recalibrate to your target prevalence.",
+  "his":  {"sd_cut": 0.20, "prob_thr": 0.40},
+  "acid": {"sd_cut": 0.30, "prob_thr": 0.06}
+}
