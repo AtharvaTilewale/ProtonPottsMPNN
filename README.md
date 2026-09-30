@@ -1,12 +1,12 @@
-# Proton-PottsMPNN
+# pH-sensitive binder design with Proton-PottsMPNN
 
 A **PottsMPNN with an explicit protonation-state alphabet**, for designing **pH-switchable** binders.
 Histidine is `HIS-P` (charged, +1) vs `HIS-S` (neutral); acids are `ASP-P`/`GLU-P` (protonated, neutral
 COOH) vs `ASP-D`/`GLU-D` (deprotonated, −1). Because the learned Potts energy is protonation-aware, the
 design engine can **pin protonated centres** and redesign around them so that binding **switches with pH**.
 
-This is the code for *"Toward pH-conditioned protein design: learning titratable-residue protonation in
-inverse-folding models"* (Jacobsen et al., 2026). It extends **PottsMPNN** — the Potts-energy inverse-folding
+This is the code for *"pH-sensitive binder design with Proton-PottsMPNN"* (Jacobsen et al., 2026). It
+extends **PottsMPNN** — the Potts-energy inverse-folding
 model of **Birnbaum & Keating** ([github.com/KeatingLab/PottsMPNN](https://github.com/KeatingLab/PottsMPNN);
 [PNAS 2026, 10.1073/pnas.2535494123](https://www.pnas.org/doi/10.1073/pnas.2535494123)) — by adding explicit
 protonation-state tokens so that a single energy function scores alternative protonation assignments on a
@@ -207,5 +207,5 @@ Proton-PottsMPNN code authored here (`labeller/`, `inference/`, `scoring/`, `ben
 is a verbatim copy of IPD's rc-foundry and keeps its own **BSD 3-Clause License**
 ([`foundry/LICENSE.md`](foundry/LICENSE.md), © 2025 Institute for Protein Design, University of Washington).
 
-If you use this in academic work, please cite the manuscript *"Toward pH-conditioned protein design: learning
-titratable-residue protonation in inverse-folding models"* (Jacobsen et al., 2026).
+If you use this in academic work, please cite the manuscript *"pH-sensitive binder design with
+Proton-PottsMPNN"* (Jacobsen et al., 2026).
