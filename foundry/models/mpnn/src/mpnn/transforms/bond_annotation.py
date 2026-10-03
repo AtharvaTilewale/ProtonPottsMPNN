@@ -294,6 +294,7 @@ def calculate_hbonds(
             "Please set it to the path of the hbplus executable in order to calculate hydrogen bonds."
         )
 
+    hbplus_exe = os.path.abspath(hbplus_exe)
     if not os.path.isfile(hbplus_exe):
         raise ValueError(
             f"HBPLUS_PATH is set to {hbplus_exe!r}, which is not a file. "
